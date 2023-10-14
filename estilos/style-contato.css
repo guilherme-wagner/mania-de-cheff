@@ -94,7 +94,7 @@ input#inicio {
 }
 
 input#inicio:hover {
-    background: #323232dc;
+    background: var(--cor-fundo);
 }
 
 div#feed {
@@ -185,10 +185,6 @@ div.redes {
 
 div.redes img {
     margin: 5px;
-}
-
-img.foto {
-    border-radius: 50%;
 }
 
 footer {
