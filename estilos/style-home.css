@@ -30,7 +30,7 @@ header {
     align-items: center;
 }
 
-div#logo-cabecalho{
+div#logo-cabecalho {
     margin-left: 100px;
 }
 
@@ -68,6 +68,65 @@ input#input-busca::placeholder {
     font-family: 'Istok Web';
     font-size: 20px;
     font-weight: 400;
+}
+
+button.dropbtn {
+    width: 239px;
+    height: 73px;
+    border-radius: 0px 33px 33px 33px;
+    border: none;
+    background: var(--cor-titulo);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: var(--cor-branca);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+nav.dropdown {
+    position: relative;
+    display: inline;
+    margin-left: 70px;
+    top: 70px;
+}
+
+div.dropdown-content {
+    display: none;
+    position: absolute;
+    margin-left: 70px;
+    width: 239px;
+    background-color: var(--cor-branca);
+    border-radius: 0px 0px 20px 20px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: #2E2E2E;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.dropdown-content a:hover {
+    background-color: #ff9c3f9f;
+}
+
+a#bebidas:hover {
+    border-radius: 0px 0px 20px 20px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: var(--cor-fundo);
 }
 
 article {
