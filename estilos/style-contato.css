@@ -54,6 +54,7 @@ div#search-bar>img {
 input#input-busca {
     width: 448px;
     height: 36px;
+    font-size: 20px;
     border-radius: 19.5px 0px 0px 19.5px;
     background: #fff;
     border: none;

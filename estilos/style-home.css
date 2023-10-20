@@ -55,6 +55,7 @@ div#search-bar>img {
 input#input-busca {
     width: 448px;
     height: 36px;
+    font-size: 20px;
     border-radius: 19.5px 0px 0px 19.5px;
     background: #fff;
     border: none;
@@ -97,7 +98,7 @@ div.dropdown-content {
     margin-left: 70px;
     width: 239px;
     background-color: var(--cor-branca);
-    border-radius: 0px 0px 20px 20px;
+    border-radius: 20px 20px 20px 20px;
 }
 
 .dropdown-content a {
@@ -119,6 +120,10 @@ div.dropdown-content {
 
 a#bebidas:hover {
     border-radius: 0px 0px 20px 20px;
+}
+
+a#carne:hover {
+    border-radius: 20px 20px 0px 0px;
 }
 
 .dropdown:hover .dropdown-content {
