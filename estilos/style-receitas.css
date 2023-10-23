@@ -87,14 +87,14 @@ button.dropbtn {
 }
 
 nav.dropdown {
-    position: relative;
-    display: inline;
-    top: 190px;
-    right: 153px;
+    position: absolute;
+    top: 200px;
+    left: 90px;
 }
 
 nav.dropdown:hover .dropdown-content {
     display: block;
+    right: 2px;
 }
 
 nav.dropdown:hover .dropbtn {
@@ -144,9 +144,10 @@ article {
 }
 
 input#inicio {
-    position: relative;
-    top: 120px;
+    position: absolute;
+    top: 140px;
     left: 90px;
+
     width: 239px;
     height: 54px;
     cursor: pointer;
@@ -223,8 +224,8 @@ div#ingredientes ul {
 }
 
 div#modo-preparo {
-width: 633px;
-margin-left: 200px;
+    width: 633px;
+    margin-left: 200px;
 
     display: inline-flex;
     padding: 10px;
@@ -234,7 +235,8 @@ margin-left: 200px;
     gap: 10px;
 }
 
-div#modo-preparo li, div#modo-preparo p {
+div#modo-preparo li,
+div#modo-preparo p {
     color: #323232;
     font-family: Inter;
     font-size: 20px;
