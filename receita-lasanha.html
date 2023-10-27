@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Receita Lasanha</title>
     <link rel="stylesheet" href="estilos/style-receitas.css">
+    <link rel="stylesheet" href="estilos/style-impressao.css" media="print">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
 </head>
 
@@ -34,7 +35,9 @@
             <div id="feed">
                 <div id="nome-receita">
                     <h1>Lasanha</h1>
-                    <img src="imagens/Line 6.png" id="linha-h1">
+                    <img src="imagens/Line 6.png">
+                    <img src="imagens/ICONE IMPRESSÃO.png" id="btn-print" alt="Botão para gerar impressão da página">
+                    
                 </div>
                 <div id="resumo">
                     <p>Uma boa receita de lasanha conquista a família e pode promover reuniões em volta da mesa cheia de
@@ -93,6 +96,11 @@
             </div>
         </footer>
     </main>
+    <script>
+        document.getElementById('btn-print').addEventListener("click", function(){
+            window.print();
+        })
+    </script>
 </body>
 
 </html>

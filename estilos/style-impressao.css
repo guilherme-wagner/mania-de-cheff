@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+*{
+    margin: 10px;
+    padding: 10px;
+}
+
+header, input#inicio, button.dropbtn, footer, div#bandeira, div#feed p{
+    display: none;
+}
+
+div#feed{
+    font-family: 'Courier New', Courier, monospace;
+}
+

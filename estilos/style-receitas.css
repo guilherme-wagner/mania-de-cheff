@@ -176,9 +176,12 @@ div#feed {
     margin-top: 65px;
 }
 
+div#feed h1{
+    text-align: center;
+}
+
 div#nome-receita {
     text-align: center;
-    margin-bottom: 0px;
 }
 
 div#nome-receita h1 {
@@ -186,6 +189,13 @@ div#nome-receita h1 {
     font-family: 'Roboto Condensed';
     font-size: 64px;
     font-weight: 700;
+}
+
+img#btn-print{
+    position: relative;
+    left: 200px;
+    bottom: 50px;
+    cursor: pointer;
 }
 
 div#resumo p {
