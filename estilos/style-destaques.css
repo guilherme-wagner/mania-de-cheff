@@ -76,13 +76,14 @@ button.dropbtn {
     font-size: 32px;
     font-weight: 700;
     cursor: pointer;
-    margin-top: 50px;
+
 }
 
 nav.dropdown {
     position: absolute;
     top: 200px;
     left: 90px;
+    margin-top: 50px;
 }
 
 nav.dropdown:hover .dropdown-content {
@@ -137,9 +138,11 @@ article {
 }
 
 input#inicio {
+    
     position: absolute;
     top: 190px;
     left: 90px;
+    
     width: 239px;
     height: 54px;
     cursor: pointer;
@@ -168,17 +171,19 @@ div#feed {
     margin-top: 120px;
 }
 
+div#mais-avaliados{
+    margin-bottom: 80px;
+}
+
 div.tops {
-    text-align: center;
-    display: inline-block;
-}
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 25px;
+}  
 
-div.tops img {
-    margin: 25px;
-}
-
-div#botoes{
-    display: inline-block;
+img.nome-top{
+    padding-right: 100px;
 }
 
 img#pizza{
@@ -196,7 +201,7 @@ div#lista-avaliados h1 {
     font-size: 36px;
     font-weight: 700;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 div#titulo {
