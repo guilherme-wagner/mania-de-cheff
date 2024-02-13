@@ -257,3 +257,8 @@ div#elementos-footer>a {
     font-size: 28px;
     font-weight: 500;
 }
+
+img#btn-abrir:hover{
+    width: 120px;
+    
+}

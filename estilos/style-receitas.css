@@ -176,10 +176,6 @@ div#feed {
     margin-top: 65px;
 }
 
-div#feed h1{
-    text-align: center;
-}
-
 div#nome-receita {
     text-align: center;
 }
@@ -193,8 +189,8 @@ div#nome-receita h1 {
 
 img#btn-print{
     position: relative;
-    left: 200px;
-    bottom: 50px;
+    left: 250px;
+    bottom: 20px;
     cursor: pointer;
 }
 
