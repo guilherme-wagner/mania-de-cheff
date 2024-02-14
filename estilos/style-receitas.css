@@ -187,11 +187,15 @@ div#nome-receita h1 {
     font-weight: 700;
 }
 
-img#btn-print{
+img#btn-print {
     position: relative;
     left: 250px;
     bottom: 20px;
     cursor: pointer;
+}
+
+img#btn-print:hover{
+    height: 40px;
 }
 
 div#resumo p {
@@ -199,8 +203,8 @@ div#resumo p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     font-weight: 400;
-    margin-top: 87px;
-    margin-bottom: 87px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     text-align: justify;
 }
 
@@ -226,7 +230,7 @@ div#ingredientes li {
 }
 
 div#ingredientes ul {
-    margin-bottom: 87px;
+    margin-bottom: 50px;
 }
 
 div#modo-preparo {

@@ -1,58 +1,58 @@
 @charset "UTF-8";
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-header, footer, div#bandeira, button.dropbtn, input#inicio, img#btn-print{
+header,
+footer,
+div#bandeira,
+button.dropbtn,
+input#inicio,
+img#btn-print {
     display: none;
 }
 
-article{
+article {
     margin: auto;
     width: 800px;
     height: 85vh;
 }
 
-article > div#feed > div#resumo > p{
-    font-size: 1.5em;
-    font-family: 'Courier New', Courier, monospace;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    text-align: justify;
+article>div#feed>div#resumo>p {
+    display: none;
 }
 
-div#feed{
+div#feed {
     box-shadow: none;
 }
 
-div#feed h2{
+div#feed h2 {
     margin-top: 15px;
     margin-bottom: 5px;
 }
 
-div#ingredientes ul{
+div#ingredientes ul {
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-div#ingredientes li{
+div#ingredientes li {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.2em;
     font-weight: normal;
     text-align: justify;
 }
 
-div#modo-preparo ol{
+div#modo-preparo ol {
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-div#modo-preparo li{
+div#modo-preparo li {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.2em;
     text-align: justify;
 }
-
