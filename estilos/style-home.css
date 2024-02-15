@@ -42,6 +42,8 @@ div#logo-principal {
     margin-bottom: 20px;
 }
 
+div#logo-principal img{width: 13vw;}
+
 div#search-bar {
     display: flex;
     align-items: center;
@@ -72,8 +74,8 @@ input#input-busca::placeholder {
 }
 
 button.dropbtn {
-    width: 239px;
-    height: 73px;
+    width: 200px;
+    height: 50px;
     border-radius: 0px 33px 33px 33px;
     border: none;
     background: var(--cor-titulo);
@@ -81,16 +83,16 @@ button.dropbtn {
     color: var(--cor-branca);
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 32px;
+    font-size: 1em;
     font-weight: 700;
     cursor: pointer;
 }
 
 nav.dropdown {
-    position: relative;
+    position: absolute;
     display: inline;
-    margin-left: 70px;
-    top: 70px;
+    margin-left: 50px;
+    font-size: 28px;
 }
 
 nav.dropdown:hover .dropdown-content {
@@ -104,8 +106,7 @@ nav.dropdown:hover .dropbtn {
 div.dropdown-content {
     display: none;
     position: absolute;
-    margin-left: 70px;
-    width: 239px;
+    width: 200px;
     background-color: var(--cor-branca);
     border-radius: 20px 20px 20px 20px;
 }
@@ -119,7 +120,7 @@ div.dropdown-content a {
     color: #2E2E2E;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 600;
 }
 
@@ -142,7 +143,7 @@ article {
 }
 
 div#feed {
-    width: 1144px;
+    width: 59.8vw;
     height: 1231px;
     border-radius: 30px;
     background-color: var(--cor-branca);
@@ -153,12 +154,18 @@ div#feed {
 div#os-top {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    align-content: flex-start;
+    align-items: flex-end;
+    align-content: flex-end;
     gap: 85px;
-    flex-wrap: wrap;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    flex-wrap: nowrap;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    padding: 30px;
+}
+
+div#os-top a img, div#divisao img{
+    max-width: 100%;
+    height: auto;
 }
 
 h1 {
@@ -167,8 +174,8 @@ h1 {
     font-family: Inter;
     font-size: 36px;
     font-weight: 700;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 div#divisao {
@@ -182,29 +189,15 @@ div#recomendacoes {
     justify-content: center;
     align-items: flex-end;
     align-content: flex-end;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: var(--cor-fundo);
-    height: 90px;
-    box-shadow: 0px -3px 4px 0px rgba(0, 0, 0, 0.25);
+div#recomendacoes img {
+    width: 100%;
+    height: auto;
 }
 
-div#elementos-footer {
-    display: flex;
-    height: 33px;
-    justify-content: center;
-    align-items: center;
-}
-
-div#elementos-footer>a {
-    text-decoration: none;
-    color: var(--cor-branca);
-    font-family: 'Roboto Condensed';
-    font-size: 28px;
-    font-weight: 500;
+footer img{
+    max-width: 100%;
+    height: auto;
 }
