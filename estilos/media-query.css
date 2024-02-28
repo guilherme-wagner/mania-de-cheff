@@ -1,51 +1,55 @@
 @charset "UTF-8";
 
-@media (width:1600px) {
-
-    input#inicio {
-        position: relative;
-        top: -10px;
-        left: 290px;
-        width: 239px;
-        height: 54px;
-        cursor: pointer;
-        border: none;
-        border-radius: 24px 24px 24px 0px;
-        background: #323232;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-        color: var(--cor-branca);
-        text-align: center;
-        font-family: Istok Web;
-        font-size: 32px;
-        font-weight: 700;
-    }
-
-}
-
 @media (width:1280px) {
 
     input#inicio {
-        position: relative;
-        top: -10px;
-        left: 140px;
-        width: 239px;
-        height: 54px;
-        cursor: pointer;
-        border: none;
-        border-radius: 24px 24px 24px 0px;
-        background: #323232;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-        color: var(--cor-branca);
-        text-align: center;
-        font-family: Istok Web;
-        font-size: 32px;
-        font-weight: 700;
+        left: 12px;
+        width: 200px;
     }
 
-    div#feed{height:1000px;}
+    button.dropbtn {
+        width: 200px;
+        height: 50px;
+        font-size: 26px;
+    }
+
+    nav.dropdown {
+        left: 12px;
+    }
+
+    div.dropdown-content {
+        width: 200px;
+    }
+
+    div#feed{height: 1400px; width: 60vw;}
+    div#quem-somos, div#dupla, div#contato {width: 100%;}
+    div#bandeira img{height: 510px;}
+    div#feed-home{height:960px; width: 60vw;}
+    div#feed-lasanha {height: 1100px; width: 60vw;}
+    div#feed-torta {height: 1200px; width: 60vw;}
+    div#feed-tequila {height: 900px; width: 60vw;}
+    div#feed-pizza {height: 1400px; width: 60vw;}
+    img.titulo-receita {width: 30vw;}
+    nav#dropdown-home {margin-left: 15px; top: 355px;}
 
     div#logo-principal img{
         width: 200px;
+    }
+    
+    div#resumo p {
+        font-size: 18px; 
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    div#bandeira {margin-left: 100px;}
+
+    div#ingredientes li {font-size: 18px;}
+    div#modo-preparo {margin-left: 0;}
+    div#modo-preparo li, div#preparo p {font-size: 16px;}
+
+    div.tops img, div#lista-avaliados img, div#titulo img {
+        max-width: 100%;
     }
 
 }
@@ -53,22 +57,18 @@
 @media (width:1366px) {
 
     input#inicio {
-        position: relative;
         top: -10px;
         left: 180px;
-        width: 239px;
-        height: 54px;
-        cursor: pointer;
-        border: none;
-        border-radius: 24px 24px 24px 0px;
-        background: #323232;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-        color: var(--cor-branca);
-        text-align: center;
-        font-family: Istok Web;
-        font-size: 32px;
-        font-weight: 700;
     }
 
-    div#feed{height:1000px;}
+    div#feed-home{height:1000px; width: 60vw;}
+}
+
+@media (width:1600px) {
+
+    input#inicio {
+        top: -10px;
+        left: 290px;
+    }
+
 }

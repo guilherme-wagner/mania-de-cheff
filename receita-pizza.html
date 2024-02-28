@@ -8,20 +8,8 @@
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style-receitas.css">
     <link rel="stylesheet" href="estilos/style-impressao.css" media="print">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
-
-<style>
-    div#feed {
-        height: 1600px;
-    }
-
-    img#btn-print {
-        position: relative;
-        left: 150px;
-        bottom: 15px;
-        cursor: pointer;
-    }
-</style>
 
 <body>
     <main>
@@ -45,9 +33,9 @@
             </div>
         </nav>
         <article>
-            <div id="feed">
+            <div class="feed" id="feed-pizza">
                 <div id="nome-receita">
-                    <img src="imagens/TITULO PIZZA.png">
+                    <img src="imagens/TITULO PIZZA.png" class="titulo-receita">
                     <img src="imagens/ICONE IMPRESSÃO.png" id="btn-print" title="Imprimir Receita"
                         alt="Botão para gerar impressão da página">
                 </div>
@@ -114,10 +102,8 @@
             </div>
         </article>
         <footer>
-            <div id="elementos-footer">
-                <img src="imagens/linha-rodape.png">
-                <a href="contato.html">Quem somos e Contato</a>
-                <img src="imagens/linha-rodape.png">
+            <div>
+                <img src="imagens/RODA PÉ.png">
             </div>
         </footer>
     </main>

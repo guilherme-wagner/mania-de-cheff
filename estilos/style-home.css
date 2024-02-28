@@ -30,9 +30,7 @@ header {
     align-items: center;
 }
 
-div#logo-cabecalho {
-    margin-left: 100px;
-}
+div#logo-cabecalho {margin-left: 100px;}
 
 div#logo-principal {
     display: flex;
@@ -50,9 +48,7 @@ div#search-bar {
     margin: 0 auto;
 }
 
-div#search-bar>img {
-    margin-top: 4px;
-}
+div#search-bar>img {margin-top: 4px;}
 
 input#input-busca {
     width: 448px;
@@ -75,7 +71,7 @@ input#input-busca::placeholder {
 
 button.dropbtn {
     width: 200px;
-    height: 50px;
+    height: 73px;
     border-radius: 0px 33px 33px 33px;
     border: none;
     background: var(--cor-titulo);
@@ -88,20 +84,16 @@ button.dropbtn {
     cursor: pointer;
 }
 
-nav.dropdown {
+nav#dropdown-home {
     position: absolute;
     display: inline;
-    margin-left: 50px;
+    margin-left: 70px;
+    top: 410px;
     font-size: 28px;
 }
 
-nav.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-nav.dropdown:hover .dropbtn {
-    background-color: var(--cor-fundo);
-}
+nav.dropdown:hover .dropdown-content {display: block;}
+nav.dropdown:hover .dropbtn {background-color: var(--cor-fundo);}
 
 div.dropdown-content {
     display: none;
@@ -124,17 +116,9 @@ div.dropdown-content a {
     font-weight: 600;
 }
 
-div.dropdown-content a:hover {
-    background-color: #ff9c3f9f;
-}
-
-a#bebidas:hover {
-    border-radius: 0px 0px 20px 20px;
-}
-
-a#carne:hover {
-    border-radius: 20px 20px 0px 0px;
-}
+div.dropdown-content a:hover {background-color: #ff9c3f9f;}
+a#bebidas:hover {border-radius: 0px 0px 20px 20px;}
+a#carne:hover {border-radius: 20px 20px 0px 0px;}
 
 article {
     display: flex;
@@ -142,8 +126,8 @@ article {
     justify-content: center;
 }
 
-div#feed {
-    width: 59.8vw;
+div.feed {
+    width: 60vw;
     height: 1231px;
     border-radius: 30px;
     background-color: var(--cor-branca);
@@ -163,10 +147,7 @@ div#os-top {
     padding: 30px;
 }
 
-div#os-top a img, div#divisao img{
-    max-width: 100%;
-    height: auto;
-}
+div#os-top a img, div#divisao img{max-width: 100%; height: auto;}
 
 h1 {
     text-align: center;
