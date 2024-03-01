@@ -190,15 +190,6 @@ img#btn-print {
     cursor: pointer;
 }
 
-/*
-img#btn-print {
-    position: relative;
-    left: 250px;
-    bottom: 20px;
-    cursor: pointer;
-}
-*/
-
 img#btn-print:hover{
     height: 40px;
 }
