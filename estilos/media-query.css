@@ -1,18 +1,37 @@
 @charset "UTF-8";
 
 /*Media Queries para monitores menores*/
-
 @media (width:1280px) {
 
     /*Alterações da página principal*/
-    div#feed-home{height:960px; width: 60vw;}
-    nav#dropdown-home {margin-left: 15px; top: 355px;}
-    div#logo-principal img{width: 200px;}
-    div.tops img, div#lista-avaliados img, div#titulo img {max-width: 100%;}
+    div#feed-home {
+        height: 960px;
+        width: 60vw;
+    }
+
+    nav#dropdown-home {
+        margin-left: 15px;
+        top: 355px;
+    }
+
+    div#logo-principal img {
+        width: 200px;
+    }
+
+    div.tops img,
+    div#lista-avaliados img,
+    div#titulo img {
+        max-width: 100%;
+    }
 
     /*Alterações na página de mais avaliados*/
-    div#feed-avaliados {height: 1100px;}
-    img.btn-abrir{width: 100%;}
+    div#feed-avaliados {
+        height: 1100px;
+    }
+
+    img.btn-abrir {
+        width: 100%;
+    }
 
     input#inicio {
         left: 12px;
@@ -25,37 +44,97 @@
         font-size: 26px;
     }
 
-    nav.dropdown {left: 12px;}
-    div.dropdown-content {width: 200px;}
+    nav.dropdown {
+        left: 12px;
+    }
 
-     /*Alterações na página de contato*/
-    div#feed{height: 1400px; width: 60vw;}
-    div#quem-somos, div#dupla, div#contato {width: 100%;}
-    
+    div.dropdown-content {
+        width: 200px;
+    }
+
+    /*Alterações na página de contato*/
+    div#feed {
+        height: 1400px;
+        width: 60vw;
+    }
+
+    div#quem-somos,
+    div#dupla,
+    div#contato {
+        width: 100%;
+    }
+
     /*Alterações nas páginas de receitas*/
-    div#bandeira img{height: 510px; margin-left: 100px;}
-    div#feed-lasanha {height: 1100px; width: 60vw;}
-    div#feed-torta {height: 1200px; width: 60vw;}
-    div#feed-tequila {height: 900px; width: 60vw;}
-    img#titulo-tequila {width: 50%;}
-    img#titulo-lasanha {width: 50%;}
-    div#feed-pizza {height: 1400px; width: 60vw;}
-    img.titulo-receita {width: 30vw;}
+    div#bandeira img {
+        height: 510px;
+        margin-left: 100px;
+    }
+
+    div#feed-lasanha {
+        height: 1100px;
+        width: 60vw;
+    }
+
+    div#feed-torta {
+        height: 1200px;
+        width: 60vw;
+    }
+
+    div#feed-tequila {
+        height: 900px;
+        width: 60vw;
+    }
+
+    img#titulo-tequila {
+        width: 50%;
+    }
+
+    img#titulo-lasanha {
+        width: 50%;
+    }
+
+    div#feed-pizza {
+        height: 1400px;
+        width: 60vw;
+    }
+
+    img.titulo-receita {
+        width: 30vw;
+    }
+
     div#resumo p {
-        font-size: 18px; 
+        font-size: 18px;
         margin-top: 40px;
         margin-bottom: 40px;
     }
-    div#ingredientes li {font-size: 18px;}
-    div#modo-preparo {margin-left: 0;}
-    div#modo-preparo li, div#preparo p {font-size: 16px;}
+
+    div#ingredientes li {
+        font-size: 18px;
+    }
+
+    div#modo-preparo {
+        margin-left: 0;
+    }
+
+    div#modo-preparo li,
+    div#preparo p {
+        font-size: 16px;
+    }
 
 }
 
 @media (width:1366px) {
+
     /*Alterações da página principal*/
-    nav#dropdown-home{margin-left: 20px; top: 330px;}
-    div#feed-home{height:1000px; width: 60vw;}
+    nav#dropdown-home {
+        margin-left: 20px;
+        top: 330px;
+    }
+
+    div#feed-home {
+        height: 1000px;
+        width: 60vw;
+    }
 
     /*Alterações na página de mais avaliados*/
     input#inicio {
@@ -77,32 +156,206 @@
         width: 200px;
     }
 
-    div#feed-avaliados {height: 1200px; margin-top: 115px;}
-    div#feed-avaliados img {width: 100%;}
+    div#feed-avaliados {
+        height: 1200px;
+        margin-top: 115px;
+    }
+
+    div#feed-avaliados img {
+        width: 100%;
+    }
 
     /*Alterações na página da pizza*/
-    div#feed-pizza {height: 1700px; width: 60vw;}
-    div#modo-preparo {margin-left: 30px;}
-    img#titulo-pizza {width: 70%;}
-    div#bandeira img {margin-left: 100px;}
+    div#feed-pizza {
+        height: 1700px;
+        width: 60vw;
+    }
+
+    div#modo-preparo {
+        margin-left: 30px;
+    }
+
+    img#titulo-pizza {
+        width: 70%;
+    }
+
+    div#bandeira img {
+        margin-left: 100px;
+    }
 
     /*Alterações na página da tequila*/
-    div#feed-tequila {height: 1000px; width: 60vw;}
-    img#titulo-tequila {width: 40%;}
+    div#feed-tequila {
+        height: 1000px;
+        width: 60vw;
+    }
+
+    img#titulo-tequila {
+        width: 40%;
+    }
 
     /*Alterações na página da torta*/
-    div#feed-torta {height: 1400px; width: 60vw;}
-    img#titulo-torta {width: 60%;}
+    div#feed-torta {
+        height: 1400px;
+        width: 60vw;
+    }
+
+    img#titulo-torta {
+        width: 60%;
+    }
 
     /*Alterações na página da lasanha*/
-    div#feed-lasanha {height: 1400px; width: 60vw;}
-    img#titulo-lasanha {width: 50%;}
+    div#feed-lasanha {
+        height: 1400px;
+        width: 60vw;
+    }
+
+    img#titulo-lasanha {
+        width: 50%;
+    }
 
     /*Alterações na página de contato*/
-    div#feed{height: 1400px; width: 60vw;}
-    div#quem-somos, div#dupla, div#contato {width: 100%;}
+    div#feed {
+        height: 1400px;
+        width: 60vw;
+    }
+
+    div#quem-somos,
+    div#dupla,
+    div#contato {
+        width: 100%;
+    }
+
+}
+
+@media (width:1600px) {
+    nav#dropdown-home {
+        margin-left: 25px;
+        top: 360px;
+    }
+
+    input#inicio {
+        left: 40px;
+    }
+
+    nav.dropdown {
+        left: 40px;
+    }
+
+    img#opcoes {
+        width: 100%;
+    }
+
+    /*Alterações nas páginas de receitas*/
+    div#bandeira img {
+        height: 510px;
+        margin-left: 100px;
+    }
+
+    div#feed-lasanha {
+        height: 1100px;
+        width: 60vw;
+    }
+
+    div#feed-torta {
+        height: 1200px;
+        width: 60vw;
+    }
+
+    div#feed-tequila {
+        height: 900px;
+        width: 60vw;
+    }
+
+    img#titulo-tequila {
+        width: 50%;
+    }
+
+    img#titulo-lasanha {
+        width: 50%;
+    }
+
+    div#feed-pizza {
+        height: 1400px;
+        width: 60vw;
+    }
+
+    img.titulo-receita {
+        width: 30vw;
+    }
+
+    div#resumo p {
+        font-size: 18px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    div#ingredientes li {
+        font-size: 18px;
+    }
+
+    div#modo-preparo {
+        margin-left: 0;
+    }
+
+    div#modo-preparo li,
+    div#preparo p {
+        font-size: 16px;
+    }
 
 }
 
 /*Media Queries para mobile*/
 
+@media only screen and (max-width: 600px) {
+
+    header {height: 62px;}
+
+
+    input#input-busca {
+        height: 32px;
+        position: absolute;
+        left: 35px;
+        width: 23.25vh;
+    }
+
+    input#input-busca::placeholder {
+        font-size: 0.8em;
+    }
+
+    img#logo-cabecalho {
+        display: none;
+    }
+
+    img#lupa {
+        margin-left: 31px;
+        height: 35px;
+    }
+
+    body {
+        background-image: url('../imagens/fundo_site_mobile.png');
+        height: 100vh;
+    }
+
+    div#logo-principal img {
+        width: 25vw;
+    }
+
+    div.feed {display: none;}
+
+    button.dropbtn {
+        display: none;
+    }
+
+    footer img {
+        display: none;
+    }
+
+    footer {
+        height: 78px;
+        width: 100vw;
+        position: absolute;
+        bottom: 0;
+        background-color: var(--cor-fundo);
+    }
+
+}
